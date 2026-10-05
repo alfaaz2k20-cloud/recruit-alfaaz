@@ -1,0 +1,89 @@
+{
+  "sjt_version": "v1",
+  "scenarios": [
+    {
+      "id": "S1",
+      "act": 1,
+      "act_title": {"en": "The Exhibition"},
+      "setup": "Setup 1",
+      "options": [
+        {"id": "S1A", "text": "A", "keys": {"empathy": 1, "conscientiousness": 3, "collaborative_spirit": 0, "emotional_agility": 0, "curiosity": 0, "creative_initiative": 0, "motivation": 3}},
+        {"id": "S1B", "text": "B", "keys": {"empathy": 2, "conscientiousness": 0, "collaborative_spirit": 1, "emotional_agility": 2, "curiosity": 1, "creative_initiative": 0, "motivation": 0}},
+        {"id": "S1C", "text": "C", "keys": {"empathy": 0, "conscientiousness": 1, "collaborative_spirit": 3, "emotional_agility": 1, "curiosity": 2, "creative_initiative": 1, "motivation": 0}},
+        {"id": "S1D", "text": "D", "keys": {"empathy": 3, "conscientiousness": 2, "collaborative_spirit": 0, "emotional_agility": 0, "curiosity": 0, "creative_initiative": 3, "motivation": 1}}
+      ]
+    },
+    {
+      "id": "S2",
+      "act": 1,
+      "act_title": {"en": "The Rehearsal"},
+      "setup": "Setup 2",
+      "options": [
+        {"id": "S2A", "text": "A", "keys": {"empathy": 3, "conscientiousness": 1, "collaborative_spirit": 2, "emotional_agility": 0, "curiosity": 1, "creative_initiative": 0, "motivation": 0}},
+        {"id": "S2B", "text": "B", "keys": {"empathy": 0, "conscientiousness": 2, "collaborative_spirit": 0, "emotional_agility": 3, "curiosity": 0, "creative_initiative": 2, "motivation": 1}},
+        {"id": "S2C", "text": "C", "keys": {"empathy": 1, "conscientiousness": 0, "collaborative_spirit": 1, "emotional_agility": 1, "curiosity": 3, "creative_initiative": 1, "motivation": 2}},
+        {"id": "S2D", "text": "D", "keys": {"empathy": 2, "conscientiousness": 3, "collaborative_spirit": 3, "emotional_agility": 2, "curiosity": 0, "creative_initiative": 0, "motivation": 3}}
+      ]
+    },
+    {
+      "id": "S3",
+      "act": 2,
+      "act_title": {"en": "The Opening"},
+      "setup": "Setup 3",
+      "options": [
+        {"id": "S3A", "text": "A", "keys": {"empathy": 0, "conscientiousness": 2, "collaborative_spirit": 1, "emotional_agility": 3, "curiosity": 2, "creative_initiative": 1, "motivation": 0}},
+        {"id": "S3B", "text": "B", "keys": {"empathy": 2, "conscientiousness": 1, "collaborative_spirit": 0, "emotional_agility": 1, "curiosity": 0, "creative_initiative": 3, "motivation": 2}},
+        {"id": "S3C", "text": "C", "keys": {"empathy": 3, "conscientiousness": 0, "collaborative_spirit": 2, "emotional_agility": 0, "curiosity": 1, "creative_initiative": 0, "motivation": 1}},
+        {"id": "S3D", "text": "D", "keys": {"empathy": 1, "conscientiousness": 3, "collaborative_spirit": 3, "emotional_agility": 2, "curiosity": 3, "creative_initiative": 2, "motivation": 3}}
+      ]
+    },
+    {
+      "id": "S4",
+      "act": 2,
+      "act_title": {"en": "The Review"},
+      "setup": "Setup 4",
+      "options": [
+        {"id": "S4A", "text": "A", "keys": {"empathy": 2, "conscientiousness": 3, "collaborative_spirit": 0, "emotional_agility": 1, "curiosity": 1, "creative_initiative": 0, "motivation": 2}},
+        {"id": "S4B", "text": "B", "keys": {"empathy": 0, "conscientiousness": 1, "collaborative_spirit": 2, "emotional_agility": 3, "curiosity": 2, "creative_initiative": 1, "motivation": 0}},
+        {"id": "S4C", "text": "C", "keys": {"empathy": 1, "conscientiousness": 0, "collaborative_spirit": 1, "emotional_agility": 0, "curiosity": 3, "creative_initiative": 3, "motivation": 1}},
+        {"id": "S4D", "text": "D", "keys": {"empathy": 3, "conscientiousness": 2, "collaborative_spirit": 3, "emotional_agility": 2, "curiosity": 0, "creative_initiative": 2, "motivation": 3}}
+      ]
+    },
+    {
+      "id": "S5",
+      "act": 3,
+      "act_title": {"en": "The Cleanup"},
+      "setup": "Setup 5",
+      "options": [
+        {"id": "S5A", "text": "A", "keys": {"empathy": 1, "conscientiousness": 2, "collaborative_spirit": 3, "emotional_agility": 0, "curiosity": 1, "creative_initiative": 2, "motivation": 3}},
+        {"id": "S5B", "text": "B", "keys": {"empathy": 3, "conscientiousness": 1, "collaborative_spirit": 0, "emotional_agility": 2, "curiosity": 0, "creative_initiative": 1, "motivation": 0}},
+        {"id": "S5C", "text": "C", "keys": {"empathy": 2, "conscientiousness": 3, "collaborative_spirit": 1, "emotional_agility": 1, "curiosity": 2, "creative_initiative": 0, "motivation": 1}},
+        {"id": "S5D", "text": "D", "keys": {"empathy": 0, "conscientiousness": 0, "collaborative_spirit": 2, "emotional_agility": 3, "curiosity": 3, "creative_initiative": 3, "motivation": 2}}
+      ]
+    },
+    {
+      "id": "S6",
+      "act": 3,
+      "act_title": {"en": "The Report"},
+      "setup": "Setup 6",
+      "options": [
+        {"id": "S6A", "text": "A", "keys": {"empathy": 2, "conscientiousness": 1, "collaborative_spirit": 0, "emotional_agility": 3, "curiosity": 2, "creative_initiative": 1, "motivation": 0}},
+        {"id": "S6B", "text": "B", "keys": {"empathy": 0, "conscientiousness": 3, "collaborative_spirit": 2, "emotional_agility": 0, "curiosity": 1, "creative_initiative": 3, "motivation": 2}},
+        {"id": "S6C", "text": "C", "keys": {"empathy": 1, "conscientiousness": 0, "collaborative_spirit": 3, "emotional_agility": 2, "curiosity": 0, "creative_initiative": 2, "motivation": 3}},
+        {"id": "S6D", "text": "D", "keys": {"empathy": 3, "conscientiousness": 2, "collaborative_spirit": 1, "emotional_agility": 1, "curiosity": 3, "creative_initiative": 0, "motivation": 1}}
+      ]
+    },
+    {
+      "id": "S7",
+      "act": 4,
+      "act_title": {"en": "The Future"},
+      "setup": "Setup 7",
+      "options": [
+        {"id": "S7A", "text": "A", "keys": {"empathy": 3, "conscientiousness": 0, "collaborative_spirit": 1, "emotional_agility": 2, "curiosity": 3, "creative_initiative": 0, "motivation": 2}},
+        {"id": "S7B", "text": "B", "keys": {"empathy": 1, "conscientiousness": 2, "collaborative_spirit": 3, "emotional_agility": 0, "curiosity": 1, "creative_initiative": 3, "motivation": 1}},
+        {"id": "S7C", "text": "C", "keys": {"empathy": 2, "conscientiousness": 3, "collaborative_spirit": 0, "emotional_agility": 1, "curiosity": 2, "creative_initiative": 2, "motivation": 3}},
+        {"id": "S7D", "text": "D", "keys": {"empathy": 0, "conscientiousness": 1, "collaborative_spirit": 2, "emotional_agility": 3, "curiosity": 0, "creative_initiative": 1, "motivation": 0}}
+      ]
+    }
+  ]
+}
