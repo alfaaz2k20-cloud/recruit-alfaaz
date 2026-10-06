@@ -1,0 +1,29 @@
+services:
+  # Backend API (Docker)
+  - type: web
+    name: alfaaz-recruit-backend
+    env: docker
+    rootDir: backend
+    plan: free
+    envVars:
+      - key: DATABASE_URL
+        sync: false # You must set this manually in the Render dashboard!
+      - key: SECRET_KEY
+        generateValue: true
+      - key: CORS_ORIGINS
+        value: "['*']" # Update this to your frontend URL later
+
+  # Frontend (Static Site)
+  - type: web
+    name: alfaaz-recruit-frontend
+    env: static
+    rootDir: frontend
+    buildCommand: npm install && npm run build
+    staticPublishPath: ./dist
+    plan: free
+    envVars:
+      - key: VITE_API_URL
+        fromService:
+          type: web
+          name: alfaaz-recruit-backend
+          envVarKey: RENDER_EXTERNAL_URL
