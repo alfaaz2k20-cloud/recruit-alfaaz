@@ -28,8 +28,8 @@ RUN pip install --upgrade pip && \
 # Copy the rest of the application code
 COPY --chown=user . .
 
-# Hugging Face Spaces requires the app to listen on port 7860
-EXPOSE 7860
+# Render passes a PORT environment variable to the container
+EXPOSE $PORT
 
 # Start the FastAPI app
-CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "7860"]
+CMD ["sh", "-c", "uvicorn app.main:app --host 0.0.0.0 --port ${PORT:-10000}"]
