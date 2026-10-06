@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Alfaaz Recruit</title>
+  </head>
+  <body>
+    <script>
+      // Redirect to the root with the original path as a query param
+      var path = window.location.pathname;
+      var segments = path.split('/');
+      var repoName = segments[1]; // e.g., "recruit-alfaaz"
+      window.location.replace('/' + repoName + '/?/' + path.substring(repoName.length + 2));
+    </script>
+  </body>
+</html>
